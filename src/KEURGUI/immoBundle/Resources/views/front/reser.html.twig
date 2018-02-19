@@ -1,0 +1,44 @@
+{% extends "@KEURGUIimmo/layout.html.twig" %}
+
+
+{% block body %}
+{% block header %}
+{{parent()}}
+{% endblock %}
+  
+ <table border=1 class="table" >
+    <tr>
+<th>id</th>
+<th>date de reservation</th>
+<th>client</th>
+<th>nom du bien</th>
+</tr>
+<tr>
+{% block style %}
+<style>
+img{
+  width:100px;
+}
+</style>
+{% endblock %}
+ 
+{% for use in x %}
+       <tr>
+  
+     
+
+  <td scope="col" class="table-info">{{use.id}}</td>
+          <td scope="col" class="table-info">{{use.date}}</td>
+
+    <td scope="col" class="table-info">{{use.client.nomComplet}}</td>
+        <td scope="col" class="table-info">   <a href="{{path('contrat',{'idb':bien.id,'idc':client.id})}}">valider</a>
+</td>
+
+     </tr> 
+      {% else %}
+      aucun utilisateur de ce login trouver
+{% endfor %}
+  </tr>
+</table>
+
+{% endblock %}

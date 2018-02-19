@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Biens list</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombien</th>
+                <th>Etat</th>
+                <th>Description</th>
+                <th>Prixlocation</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for bien in biens %}
+            <tr>
+                <td><a href="{{ path('bien_show', { 'id': bien.id }) }}">{{ bien.id }}</a></td>
+                <td>{{ bien.nomBien }}</td>
+                <td>{% if bien.etat %}Yes{% else %}No{% endif %}</td>
+                <td>{{ bien.description }}</td>
+                <td>{{ bien.prixLocation }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('bien_show', { 'id': bien.id }) }}">show</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('bien_edit', { 'id': bien.id }) }}">edit</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('bien_new') }}">Create a new bien</a>
+        </li>
+    </ul>
+{% endblock %}

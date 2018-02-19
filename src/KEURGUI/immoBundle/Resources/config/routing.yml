@@ -1,0 +1,33 @@
+keurgu_iimmo_homepage:
+    path:     /
+    defaults: { _controller: KEURGUIimmoBundle:Default:index }
+  
+fine:
+    path:     /bien
+    defaults: { _controller: KEURGUIimmoBundle:front:searchBien }
+affiche:
+    path:     /affiche
+    defaults: { _controller: KEURGUIimmoBundle:front:searchBien }
+reserver:
+    path:     /affiche/{id}/{idb}
+    defaults: { _controller: KEURGUIimmoBundle:front:res }
+rese:
+    path:     /res/
+    defaults: { _controller: KEURGUIimmoBundle:front:affRes }
+log:
+    path:     /log/
+    defaults: { _controller: KEURGUIimmoBundle:front:connect }
+contrat:
+    path:     /contrat/{idb}/{idc}
+    defaults: { _controller: KEURGUIimmoBundle:front:validRes }
+reserve:
+    path:     /affiche/
+    defaults: { _controller: KEURGUIimmoBundle:front:connect }    
+                     
+                 
+     
+             
+                 
+     
+         
+     

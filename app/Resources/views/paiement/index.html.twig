@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Paiements list</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Datepaiement</th>
+                <th>Montant</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for paiement in paiements %}
+            <tr>
+                <td><a href="{{ path('paiement_show', { 'id': paiement.id }) }}">{{ paiement.id }}</a></td>
+                <td>{% if paiement.datePaiement %}{{ paiement.datePaiement|date('Y-m-d') }}{% endif %}</td>
+                <td>{{ paiement.montant }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('paiement_show', { 'id': paiement.id }) }}">show</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('paiement_edit', { 'id': paiement.id }) }}">edit</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('paiement_new') }}">Create a new paiement</a>
+        </li>
+    </ul>
+{% endblock %}

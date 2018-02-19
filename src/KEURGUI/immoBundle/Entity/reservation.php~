@@ -1,0 +1,103 @@
+<?php
+
+namespace KEURGUI\immoBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * reservation.
+ *
+ * @ORM\Table(name="reservations")
+ * @ORM\Entity(repositoryClass="KEURGUI\immoBundle\Repository\reservationRepository")
+ */
+class reservation
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="date", type="string", length=50)
+     */
+    private $date;
+    /**
+     * @ORM\ManyToOne(targetEntity="KEURGUI\immoBundle\Entity\Bien")
+     */
+    private $bien;
+    /**
+     * @ORM\ManyToOne(targetEntity="KEURGUI\immoBundle\Entity\client")
+     */
+    private $client;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="etat", type="string", length=255)
+     */
+    private $etat;
+
+    /**
+     * Get id.
+     *
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set date.
+     *
+     * @param string $date
+     *
+     * @return reservation
+     */
+    public function setDate($date)
+    {
+        $this->date = $date;
+
+        return $this;
+    }
+
+    /**
+     * Get date.
+     *
+     * @return string
+     */
+    public function getDate()
+    {
+        return $this->date;
+    }
+
+    /**
+     * Set etat.
+     *
+     * @param string $etat
+     *
+     * @return reservation
+     */
+    public function setEtat($etat)
+    {
+        $this->etat = $etat;
+
+        return $this;
+    }
+
+    /**
+     * Get etat.
+     *
+     * @return string
+     */
+    public function getEtat()
+    {
+        return $this->etat;
+    }
+}

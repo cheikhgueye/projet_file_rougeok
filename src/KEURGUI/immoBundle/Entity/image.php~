@@ -1,0 +1,72 @@
+<?php
+
+namespace KEURGUI\immoBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * image.
+ *
+ * @ORM\Table(name="image")
+ * @ORM\Entity(repositoryClass="KEURGUI\immoBundle\Repository\imageRepository")
+ */
+class image
+{
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="image", type="blob",nullable=true)
+     */
+    private $image;
+
+    /**
+     * Get id.
+     *
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /*
+     * Set image.
+     *
+     * @param string $image
+     *
+     * @return image
+     */
+
+    /**
+     * Set image.
+     *
+     * @param \longblob $image
+     *
+     * @return image
+     */
+    public function setImage(\longblob $image)
+    {
+        $this->image = $image;
+
+        return $this;
+    }
+
+    /**
+     * Get image.
+     *
+     * @return \longblob
+     */
+    public function getImage()
+    {
+        return $this->image;
+    }
+}

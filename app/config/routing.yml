@@ -1,0 +1,23 @@
+keurgu_iimmo_image:
+    resource: "@KEURGUIimmoBundle/Controller/imageController.php"
+    type:     annotation
+
+keurgu_iimmo_contrat:
+    resource: "@KEURGUIimmoBundle/Controller/contratController.php"
+    type:     annotation
+
+keurgu_iimmo_reservation:
+    resource: "@KEURGUIimmoBundle/Controller/ReservationController.php"
+    type:     annotation
+
+keurgu_iimmo_paiement:
+    resource: "@KEURGUIimmoBundle/Controller/PaiementController.php"
+    type:     annotation
+
+keurgu_iimmo:
+    resource: "@KEURGUIimmoBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

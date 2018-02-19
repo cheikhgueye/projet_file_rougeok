@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Proprietaires list</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Numpiece</th>
+                <th>Nomcomplet</th>
+                <th>Adresse</th>
+                <th>Tel</th>
+                <th>Email</th>
+                <th>Comptebancaire</th>
+                <th>Prixpropritaire</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for proprietaire in proprietaires %}
+            <tr>
+                <td><a href="{{ path('proprietaire_show', { 'id': proprietaire.id }) }}">{{ proprietaire.id }}</a></td>
+                <td>{{ proprietaire.numpiece }}</td>
+                <td>{{ proprietaire.nomcomplet }}</td>
+                <td>{{ proprietaire.adresse }}</td>
+                <td>{{ proprietaire.tel }}</td>
+                <td>{{ proprietaire.email }}</td>
+                <td>{{ proprietaire.comptebancaire }}</td>
+                <td>{{ proprietaire.prixPropritaire }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('proprietaire_show', { 'id': proprietaire.id }) }}">show</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('proprietaire_edit', { 'id': proprietaire.id }) }}">edit</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('proprietaire_new') }}">Create a new proprietaire</a>
+        </li>
+    </ul>
+{% endblock %}

@@ -1,0 +1,4 @@
+services:
+#    keurgu_iimmo.example:
+#        class: KEURGUI\immoBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

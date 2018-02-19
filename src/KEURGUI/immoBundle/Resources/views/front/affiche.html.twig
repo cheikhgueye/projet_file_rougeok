@@ -1,0 +1,43 @@
+{% extends "@KEURGUIimmo/layout.html.twig" %}
+
+
+{% block body %}
+{% block header %}
+{{parent()}}
+{% endblock %}
+  
+{% block style %}
+<style>
+
+img{
+  width:300px;
+}
+
+</style>
+{% endblock %}
+ 
+<div class="row">
+
+{% for use in x %}
+<div class="col-md-4">
+<div class="container">
+ <div class="card" style="width:300px">
+      {% set c = 0 %}
+  {% for i in use.image %}
+    {% if c == 0 %}
+       <td scope="col" class="table-info">  <img src="{{ asset('images/'~i.image) }}" class="img-circle" alt="Leanna!"></td>
+       {% set c = c+ 1 %} 
+         {% endif %}
+  {% endfor %} 
+         <div class="card-body">
+      <h4 class="card-title">{{ use.type.nom }}:{{use.nom }}</h4>
+       <h4 class="card-title">{{use.localite }}</h4>
+
+      <p >{{use.description }}</p>
+   <a href="{{path('reserver',{'id':app.session.get('id_client') ,'idb':use.id})}}">reserver</a>
+    </div>
+  </div>
+    </div>
+  </div>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,98 @@
+{% extends "@KEURGUIimmo/layout.html.twig" %}
+
+
+{% block body %}
+{% block header %}
+{{parent()}}
+{% endblock %}
+
+
+{{ form_start(form) }}
+<section  class="row" style="height:355px; margin-top:0px" >
+ <div class="col"> <img src="{{ asset('images/m1.jpg') }}" style="height:355px; width:100%" alt=""></div>
+<div class="col-12"style="z-index:1 ; position:absolute;background-color: Grey; margin-top:50px;height:100px;opacity: 0.8;">
+<table >
+    <tr>
+    <td> {{ form_label(form.types) }}{{ form_widget(form.types,{'attr': {'class': 'task_field'}}) }}</td>
+    <td> {{ form_label(form.localites) }}{{ form_widget(form.localites) }}</td>
+    <td> {{ form_label(form.prix) }}{{ form_widget(form.prix) }}</td>
+    <td> {{ form_label(form.chercher) }}{{ form_widget(form.chercher) }}</td>
+    </tr>
+</table>
+</div>
+
+
+ </section>
+
+
+
+{{ form_end(form) }}
+<section>
+
+{% block style %}
+<style>
+
+img{
+  width:300px;
+}
+
+</style>
+{% endblock %}
+ {% if app.session.get('id_client') is not defined %}
+<div class="row">
+
+{% for use in x %}
+<div class="col-md-4">
+<div class="container">
+ <div class="card" style="width:300px">
+      {% set c = 0 %}
+  {% for i in use.image %}
+    {% if c == 0 %}
+       <td scope="col" class="table-info">  <img src="{{ asset('images/'~i.image) }}" class="img-circle" alt="Leanna!"></td>
+       {% set c = c+ 1 %} 
+         {% endif %}
+  {% endfor %} 
+         <div class="card-body">
+      <h4 class="card-title">{{ use.type.nom }}:{{use.nom }}</h4>
+       <h4 class="card-title">{{use.localite }}</h4>
+
+      <p >{{use.description }}//{{ app.session.get('qwerty') }}</p>
+   <a href="{{path('reserve')}}">reserver</a>
+    </div>
+  </div>
+    </div>
+  </div>
+{% endfor %}
+
+ </section>
+{% endif %}
+ {% if app.session.get('id_client') is  defined %}
+ <div class="row">
+
+{% for use in x %}
+<div class="col-md-4">
+<div class="container">
+ <div class="card" style="width:300px">
+      {% set c = 0 %}
+  {% for i in use.image %}
+    {% if c == 0 %}
+       <td scope="col" class="table-info">  <img src="{{ asset('images/'~i.image) }}" class="img-circle" alt="Leanna!"></td>
+       {% set c = c+ 1 %} 
+         {% endif %}
+  {% endfor %} 
+         <div class="card-body">
+      <h4 class="card-title">{{ use.type.nom }}:{{use.nom }}</h4>
+       <h4 class="card-title">{{use.localite }}</h4>
+
+      <p >{{use.description }}//{{ app.session.get('qwerty') }}</p>
+   <a href="{{path('reserver',{'id':app.session.get('id_client') ,'idb':use.id})}}">reserver</a>
+    </div>
+  </div>
+    </div>
+  </div>
+{% endfor %}
+
+ </section>
+{% endif %}
+{% endblock %}
+
