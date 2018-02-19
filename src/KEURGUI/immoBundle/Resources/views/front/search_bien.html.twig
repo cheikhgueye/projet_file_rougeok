@@ -9,16 +9,19 @@
 
 {{ form_start(form) }}
 <section  class="row" style="height:355px; margin-top:0px" >
- <div class="col"> <img src="{{ asset('images/m1.jpg') }}" style="height:355px; width:100%" alt=""></div>
-<div class="col-12"style="z-index:1 ; position:absolute;background-color: Grey; margin-top:50px;height:100px;opacity: 0.8;">
-<table >
-    <tr>
-    <td> {{ form_label(form.types) }}{{ form_widget(form.types,{'attr': {'class': 'task_field'}}) }}</td>
-    <td> {{ form_label(form.localites) }}{{ form_widget(form.localites) }}</td>
-    <td> {{ form_label(form.prix) }}{{ form_widget(form.prix) }}</td>
-    <td> {{ form_label(form.chercher) }}{{ form_widget(form.chercher) }}</td>
-    </tr>
-</table>
+ <div class="col-12"> <img src="{{ asset('images/m1.jpg') }}" style="height:355px; width:100%" alt=""></div>
+<div class="col"style="z-index:1 ; position:absolute;background-color: Grey; margin-top:50px;height:100px;opacity: 0.8;">
+
+<div class="row">
+<div class="col-2"style="font-size:25px;color:white;">{{ form_label(form.types) }}{{ form_widget(form.types,{'attr': {'class': 'task_field'}}) }}</div>
+<div class="col-1"></div>
+<div class="col-2"style="font-size:25px;color:white;">{{ form_label(form.localites) }}{{ form_widget(form.localites) }}</div>
+<div class="col-1"></div>
+<div class="col-2"style="font-size:25px;color:white;">{{ form_label(form.prix) }}{{ form_widget(form.prix) }}</div>
+<div class="col-1"></div>
+<div class="col-2" style="margin-top:45px;">{{ form_label(form.chercher) }}{{ form_widget(form.chercher) }}</div>
+<div class="col-1"></div>
+</div>
 </div>
 
 
