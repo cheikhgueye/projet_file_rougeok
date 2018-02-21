@@ -23,29 +23,29 @@ class __TwigTemplate_ba1b82e74ec0a21e2f375f27ec2bb92b5bb5a054f71d72ee6e6b28e8f27
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_b7274b2f4623a8fc3a3a26ae8c49e3ff2eef0020b2efe96e2e230a2d39518d3b = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_b7274b2f4623a8fc3a3a26ae8c49e3ff2eef0020b2efe96e2e230a2d39518d3b->enter($__internal_b7274b2f4623a8fc3a3a26ae8c49e3ff2eef0020b2efe96e2e230a2d39518d3b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "KEURGUIimmoBundle:front:search_bien.html.twig"));
+        $__internal_c8c580622f47b1d4c58f60474497678b42f61f6fae817b68d61193a1b367c23f = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_c8c580622f47b1d4c58f60474497678b42f61f6fae817b68d61193a1b367c23f->enter($__internal_c8c580622f47b1d4c58f60474497678b42f61f6fae817b68d61193a1b367c23f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "KEURGUIimmoBundle:front:search_bien.html.twig"));
 
-        $__internal_4132818dd7268c768ee3bda81fba2c8388618a9cd6c7fdf150786cbcc297267f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4132818dd7268c768ee3bda81fba2c8388618a9cd6c7fdf150786cbcc297267f->enter($__internal_4132818dd7268c768ee3bda81fba2c8388618a9cd6c7fdf150786cbcc297267f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "KEURGUIimmoBundle:front:search_bien.html.twig"));
+        $__internal_3e38da4f837c1a71bf504f14413c1ff6ad3a4c9f9086896b8b37e651f93a0d77 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3e38da4f837c1a71bf504f14413c1ff6ad3a4c9f9086896b8b37e651f93a0d77->enter($__internal_3e38da4f837c1a71bf504f14413c1ff6ad3a4c9f9086896b8b37e651f93a0d77_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "KEURGUIimmoBundle:front:search_bien.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_b7274b2f4623a8fc3a3a26ae8c49e3ff2eef0020b2efe96e2e230a2d39518d3b->leave($__internal_b7274b2f4623a8fc3a3a26ae8c49e3ff2eef0020b2efe96e2e230a2d39518d3b_prof);
+        $__internal_c8c580622f47b1d4c58f60474497678b42f61f6fae817b68d61193a1b367c23f->leave($__internal_c8c580622f47b1d4c58f60474497678b42f61f6fae817b68d61193a1b367c23f_prof);
 
         
-        $__internal_4132818dd7268c768ee3bda81fba2c8388618a9cd6c7fdf150786cbcc297267f->leave($__internal_4132818dd7268c768ee3bda81fba2c8388618a9cd6c7fdf150786cbcc297267f_prof);
+        $__internal_3e38da4f837c1a71bf504f14413c1ff6ad3a4c9f9086896b8b37e651f93a0d77->leave($__internal_3e38da4f837c1a71bf504f14413c1ff6ad3a4c9f9086896b8b37e651f93a0d77_prof);
 
     }
 
     // line 4
     public function block_body($context, array $blocks = array())
     {
-        $__internal_1eba42e71c7d7b46b1654d6fcae12c2d4d80f1e6c00528f817b7f226901b5c74 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_1eba42e71c7d7b46b1654d6fcae12c2d4d80f1e6c00528f817b7f226901b5c74->enter($__internal_1eba42e71c7d7b46b1654d6fcae12c2d4d80f1e6c00528f817b7f226901b5c74_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_3d6418c23986236853648515939632232473f989950022fc0f03ff81137a6b31 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_3d6418c23986236853648515939632232473f989950022fc0f03ff81137a6b31->enter($__internal_3d6418c23986236853648515939632232473f989950022fc0f03ff81137a6b31_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_eef67d4349a08314bbd614ee5c78291e5b0b21d5aa4501c180cc40b164f6c1e9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_eef67d4349a08314bbd614ee5c78291e5b0b21d5aa4501c180cc40b164f6c1e9->enter($__internal_eef67d4349a08314bbd614ee5c78291e5b0b21d5aa4501c180cc40b164f6c1e9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_f01ec1792a6356da424b3ecc416469417a7967812aa5b0cbffe3c86943bad3b3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f01ec1792a6356da424b3ecc416469417a7967812aa5b0cbffe3c86943bad3b3->enter($__internal_f01ec1792a6356da424b3ecc416469417a7967812aa5b0cbffe3c86943bad3b3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 5
         $this->displayBlock('header', $context, $blocks);
@@ -105,43 +105,43 @@ class __TwigTemplate_ba1b82e74ec0a21e2f375f27ec2bb92b5bb5a054f71d72ee6e6b28e8f27
 ";
         // line 35
         $this->displayBlock('style', $context, $blocks);
-        // line 44
+        // line 45
         echo " ";
         if ( !twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), ($context["app"] ?? null), "session", array(), "any", false, true), "get", array(0 => "id_client"), "method", true, true)) {
-            // line 45
+            // line 46
             echo "<div class=\"row\">
 
 ";
-            // line 47
+            // line 48
             $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable((isset($context["x"]) || array_key_exists("x", $context) ? $context["x"] : (function () { throw new Twig_Error_Runtime('Variable "x" does not exist.', 47, $this->getSourceContext()); })()));
+            $context['_seq'] = twig_ensure_traversable((isset($context["x"]) || array_key_exists("x", $context) ? $context["x"] : (function () { throw new Twig_Error_Runtime('Variable "x" does not exist.', 48, $this->getSourceContext()); })()));
             foreach ($context['_seq'] as $context["_key"] => $context["use"]) {
-                // line 48
+                // line 49
                 echo "<div class=\"col-md-4\">
 <div class=\"container\">
  <div class=\"card\" style=\"width:300px\">
       ";
-                // line 51
-                $context["c"] = 0;
                 // line 52
+                $context["c"] = 0;
+                // line 53
                 echo "  ";
                 $context['_parent'] = $context;
                 $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->getSourceContext(), $context["use"], "image", array()));
                 foreach ($context['_seq'] as $context["_key"] => $context["i"]) {
-                    // line 53
+                    // line 54
                     echo "    ";
-                    if (((isset($context["c"]) || array_key_exists("c", $context) ? $context["c"] : (function () { throw new Twig_Error_Runtime('Variable "c" does not exist.', 53, $this->getSourceContext()); })()) == 0)) {
-                        // line 54
+                    if (((isset($context["c"]) || array_key_exists("c", $context) ? $context["c"] : (function () { throw new Twig_Error_Runtime('Variable "c" does not exist.', 54, $this->getSourceContext()); })()) == 0)) {
+                        // line 55
                         echo "       <td scope=\"col\" class=\"table-info\">  <img src=\"";
                         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl(("images/" . twig_get_attribute($this->env, $this->getSourceContext(), $context["i"], "image", array()))), "html", null, true);
                         echo "\" class=\"img-circle\" alt=\"Leanna!\"></td>
        ";
-                        // line 55
-                        $context["c"] = ((isset($context["c"]) || array_key_exists("c", $context) ? $context["c"] : (function () { throw new Twig_Error_Runtime('Variable "c" does not exist.', 55, $this->getSourceContext()); })()) + 1);
+                        // line 56
+                        $context["c"] = ((isset($context["c"]) || array_key_exists("c", $context) ? $context["c"] : (function () { throw new Twig_Error_Runtime('Variable "c" does not exist.', 56, $this->getSourceContext()); })()) + 1);
                         echo " 
          ";
                     }
-                    // line 57
+                    // line 58
                     echo "  ";
                 }
                 $_parent = $context['_parent'];
@@ -150,24 +150,24 @@ class __TwigTemplate_ba1b82e74ec0a21e2f375f27ec2bb92b5bb5a054f71d72ee6e6b28e8f27
                 echo " 
          <div class=\"card-body\">
       <h4 class=\"card-title\">";
-                // line 59
+                // line 60
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), $context["use"], "type", array()), "nom", array()), "html", null, true);
                 echo ":";
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["use"], "nom", array()), "html", null, true);
                 echo "</h4>
        <h4 class=\"card-title\">";
-                // line 60
+                // line 61
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["use"], "localite", array()), "html", null, true);
                 echo "</h4>
 
       <p >";
-                // line 62
+                // line 63
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["use"], "description", array()), "html", null, true);
                 echo "//";
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 62, $this->getSourceContext()); })()), "session", array()), "get", array(0 => "qwerty"), "method"), "html", null, true);
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 63, $this->getSourceContext()); })()), "session", array()), "get", array(0 => "qwerty"), "method"), "html", null, true);
                 echo "</p>
    <a href=\"";
-                // line 63
+                // line 64
                 echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("reserve");
                 echo "\">reserver</a>
     </div>
@@ -179,48 +179,48 @@ class __TwigTemplate_ba1b82e74ec0a21e2f375f27ec2bb92b5bb5a054f71d72ee6e6b28e8f27
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['use'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 69
+            // line 70
             echo "
  </section>
 ";
         }
-        // line 72
+        // line 73
         echo " ";
         if (twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), ($context["app"] ?? null), "session", array(), "any", false, true), "get", array(0 => "id_client"), "method", true, true)) {
-            // line 73
+            // line 74
             echo " <div class=\"row\">
 
 ";
-            // line 75
+            // line 76
             $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable((isset($context["x"]) || array_key_exists("x", $context) ? $context["x"] : (function () { throw new Twig_Error_Runtime('Variable "x" does not exist.', 75, $this->getSourceContext()); })()));
+            $context['_seq'] = twig_ensure_traversable((isset($context["x"]) || array_key_exists("x", $context) ? $context["x"] : (function () { throw new Twig_Error_Runtime('Variable "x" does not exist.', 76, $this->getSourceContext()); })()));
             foreach ($context['_seq'] as $context["_key"] => $context["use"]) {
-                // line 76
+                // line 77
                 echo "<div class=\"col-md-4\">
 <div class=\"container\">
  <div class=\"card\" style=\"width:300px\">
       ";
-                // line 79
-                $context["c"] = 0;
                 // line 80
+                $context["c"] = 0;
+                // line 81
                 echo "  ";
                 $context['_parent'] = $context;
                 $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->getSourceContext(), $context["use"], "image", array()));
                 foreach ($context['_seq'] as $context["_key"] => $context["i"]) {
-                    // line 81
+                    // line 82
                     echo "    ";
-                    if (((isset($context["c"]) || array_key_exists("c", $context) ? $context["c"] : (function () { throw new Twig_Error_Runtime('Variable "c" does not exist.', 81, $this->getSourceContext()); })()) == 0)) {
-                        // line 82
+                    if (((isset($context["c"]) || array_key_exists("c", $context) ? $context["c"] : (function () { throw new Twig_Error_Runtime('Variable "c" does not exist.', 82, $this->getSourceContext()); })()) == 0)) {
+                        // line 83
                         echo "       <td scope=\"col\" class=\"table-info\">  <img src=\"";
                         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl(("images/" . twig_get_attribute($this->env, $this->getSourceContext(), $context["i"], "image", array()))), "html", null, true);
                         echo "\" class=\"img-circle\" alt=\"Leanna!\"></td>
        ";
-                        // line 83
-                        $context["c"] = ((isset($context["c"]) || array_key_exists("c", $context) ? $context["c"] : (function () { throw new Twig_Error_Runtime('Variable "c" does not exist.', 83, $this->getSourceContext()); })()) + 1);
+                        // line 84
+                        $context["c"] = ((isset($context["c"]) || array_key_exists("c", $context) ? $context["c"] : (function () { throw new Twig_Error_Runtime('Variable "c" does not exist.', 84, $this->getSourceContext()); })()) + 1);
                         echo " 
          ";
                     }
-                    // line 85
+                    // line 86
                     echo "  ";
                 }
                 $_parent = $context['_parent'];
@@ -229,25 +229,25 @@ class __TwigTemplate_ba1b82e74ec0a21e2f375f27ec2bb92b5bb5a054f71d72ee6e6b28e8f27
                 echo " 
          <div class=\"card-body\">
       <h4 class=\"card-title\">";
-                // line 87
+                // line 88
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), $context["use"], "type", array()), "nom", array()), "html", null, true);
                 echo ":";
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["use"], "nom", array()), "html", null, true);
                 echo "</h4>
        <h4 class=\"card-title\">";
-                // line 88
+                // line 89
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["use"], "localite", array()), "html", null, true);
                 echo "</h4>
 
       <p >";
-                // line 90
+                // line 91
                 echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["use"], "description", array()), "html", null, true);
                 echo "//";
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 90, $this->getSourceContext()); })()), "session", array()), "get", array(0 => "qwerty"), "method"), "html", null, true);
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 91, $this->getSourceContext()); })()), "session", array()), "get", array(0 => "qwerty"), "method"), "html", null, true);
                 echo "</p>
    <a href=\"";
-                // line 91
-                echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("reserver", array("id" => twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 91, $this->getSourceContext()); })()), "session", array()), "get", array(0 => "id_client"), "method"), "idb" => twig_get_attribute($this->env, $this->getSourceContext(), $context["use"], "id", array()))), "html", null, true);
+                // line 92
+                echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("reserver", array("id" => twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 92, $this->getSourceContext()); })()), "session", array()), "get", array(0 => "id_client"), "method"), "idb" => twig_get_attribute($this->env, $this->getSourceContext(), $context["use"], "id", array()))), "html", null, true);
                 echo "\">reserver</a>
     </div>
   </div>
@@ -258,63 +258,64 @@ class __TwigTemplate_ba1b82e74ec0a21e2f375f27ec2bb92b5bb5a054f71d72ee6e6b28e8f27
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['use'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 97
+            // line 98
             echo "
  </section>
 ";
         }
         
-        $__internal_eef67d4349a08314bbd614ee5c78291e5b0b21d5aa4501c180cc40b164f6c1e9->leave($__internal_eef67d4349a08314bbd614ee5c78291e5b0b21d5aa4501c180cc40b164f6c1e9_prof);
+        $__internal_f01ec1792a6356da424b3ecc416469417a7967812aa5b0cbffe3c86943bad3b3->leave($__internal_f01ec1792a6356da424b3ecc416469417a7967812aa5b0cbffe3c86943bad3b3_prof);
 
         
-        $__internal_1eba42e71c7d7b46b1654d6fcae12c2d4d80f1e6c00528f817b7f226901b5c74->leave($__internal_1eba42e71c7d7b46b1654d6fcae12c2d4d80f1e6c00528f817b7f226901b5c74_prof);
+        $__internal_3d6418c23986236853648515939632232473f989950022fc0f03ff81137a6b31->leave($__internal_3d6418c23986236853648515939632232473f989950022fc0f03ff81137a6b31_prof);
 
     }
 
     // line 5
     public function block_header($context, array $blocks = array())
     {
-        $__internal_93c44fca2b050dbd65197289b4bf257810948fc007bc35029f3431aecb1f3938 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_93c44fca2b050dbd65197289b4bf257810948fc007bc35029f3431aecb1f3938->enter($__internal_93c44fca2b050dbd65197289b4bf257810948fc007bc35029f3431aecb1f3938_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "header"));
+        $__internal_060a171561111f9f2f5d9c56fca0c7d9271715ca1a385f80b360f112580846a2 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_060a171561111f9f2f5d9c56fca0c7d9271715ca1a385f80b360f112580846a2->enter($__internal_060a171561111f9f2f5d9c56fca0c7d9271715ca1a385f80b360f112580846a2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "header"));
 
-        $__internal_5dd540c092f2b5cb8b1da1a8ddab75c81833e57675e697a1e63e7b3937d1afbe = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_5dd540c092f2b5cb8b1da1a8ddab75c81833e57675e697a1e63e7b3937d1afbe->enter($__internal_5dd540c092f2b5cb8b1da1a8ddab75c81833e57675e697a1e63e7b3937d1afbe_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "header"));
+        $__internal_e198eaf342a7722cfc2bd0816810f3271f501165df3c93037998566f39120385 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e198eaf342a7722cfc2bd0816810f3271f501165df3c93037998566f39120385->enter($__internal_e198eaf342a7722cfc2bd0816810f3271f501165df3c93037998566f39120385_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "header"));
 
         // line 6
         $this->displayParentBlock("header", $context, $blocks);
         echo "
 ";
         
-        $__internal_5dd540c092f2b5cb8b1da1a8ddab75c81833e57675e697a1e63e7b3937d1afbe->leave($__internal_5dd540c092f2b5cb8b1da1a8ddab75c81833e57675e697a1e63e7b3937d1afbe_prof);
+        $__internal_e198eaf342a7722cfc2bd0816810f3271f501165df3c93037998566f39120385->leave($__internal_e198eaf342a7722cfc2bd0816810f3271f501165df3c93037998566f39120385_prof);
 
         
-        $__internal_93c44fca2b050dbd65197289b4bf257810948fc007bc35029f3431aecb1f3938->leave($__internal_93c44fca2b050dbd65197289b4bf257810948fc007bc35029f3431aecb1f3938_prof);
+        $__internal_060a171561111f9f2f5d9c56fca0c7d9271715ca1a385f80b360f112580846a2->leave($__internal_060a171561111f9f2f5d9c56fca0c7d9271715ca1a385f80b360f112580846a2_prof);
 
     }
 
     // line 35
     public function block_style($context, array $blocks = array())
     {
-        $__internal_e5f39214d79f5dbb37428bbe4841e29051686f7886ec958a6fafc17667990603 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_e5f39214d79f5dbb37428bbe4841e29051686f7886ec958a6fafc17667990603->enter($__internal_e5f39214d79f5dbb37428bbe4841e29051686f7886ec958a6fafc17667990603_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "style"));
+        $__internal_dfd59766e051643b3b6bf7a42cdf80cf534737d25b81e84793c9240b459e54ac = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_dfd59766e051643b3b6bf7a42cdf80cf534737d25b81e84793c9240b459e54ac->enter($__internal_dfd59766e051643b3b6bf7a42cdf80cf534737d25b81e84793c9240b459e54ac_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "style"));
 
-        $__internal_c5483244c74a248d258b6ead8159e7046e9c7524c1d295385122174d505c68a1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c5483244c74a248d258b6ead8159e7046e9c7524c1d295385122174d505c68a1->enter($__internal_c5483244c74a248d258b6ead8159e7046e9c7524c1d295385122174d505c68a1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "style"));
+        $__internal_a61ccc3b9f38018aa536a9397ec48a730e3bef68765f5a79d97d4d187ad7b22a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a61ccc3b9f38018aa536a9397ec48a730e3bef68765f5a79d97d4d187ad7b22a->enter($__internal_a61ccc3b9f38018aa536a9397ec48a730e3bef68765f5a79d97d4d187ad7b22a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "style"));
 
         // line 36
         echo "<style>
 
 img{
+  
   width:300px;
 }
 
 </style>
 ";
         
-        $__internal_c5483244c74a248d258b6ead8159e7046e9c7524c1d295385122174d505c68a1->leave($__internal_c5483244c74a248d258b6ead8159e7046e9c7524c1d295385122174d505c68a1_prof);
+        $__internal_a61ccc3b9f38018aa536a9397ec48a730e3bef68765f5a79d97d4d187ad7b22a->leave($__internal_a61ccc3b9f38018aa536a9397ec48a730e3bef68765f5a79d97d4d187ad7b22a_prof);
 
         
-        $__internal_e5f39214d79f5dbb37428bbe4841e29051686f7886ec958a6fafc17667990603->leave($__internal_e5f39214d79f5dbb37428bbe4841e29051686f7886ec958a6fafc17667990603_prof);
+        $__internal_dfd59766e051643b3b6bf7a42cdf80cf534737d25b81e84793c9240b459e54ac->leave($__internal_dfd59766e051643b3b6bf7a42cdf80cf534737d25b81e84793c9240b459e54ac_prof);
 
     }
 
@@ -330,7 +331,7 @@ img{
 
     public function getDebugInfo()
     {
-        return array (  305 => 36,  296 => 35,  284 => 6,  275 => 5,  262 => 97,  250 => 91,  244 => 90,  239 => 88,  233 => 87,  224 => 85,  219 => 83,  214 => 82,  211 => 81,  206 => 80,  204 => 79,  199 => 76,  195 => 75,  191 => 73,  188 => 72,  183 => 69,  171 => 63,  165 => 62,  160 => 60,  154 => 59,  145 => 57,  140 => 55,  135 => 54,  132 => 53,  127 => 52,  125 => 51,  120 => 48,  116 => 47,  112 => 45,  109 => 44,  107 => 35,  101 => 32,  87 => 22,  81 => 20,  75 => 18,  69 => 16,  62 => 12,  57 => 10,  53 => 8,  51 => 5,  42 => 4,  11 => 1,);
+        return array (  305 => 36,  296 => 35,  284 => 6,  275 => 5,  262 => 98,  250 => 92,  244 => 91,  239 => 89,  233 => 88,  224 => 86,  219 => 84,  214 => 83,  211 => 82,  206 => 81,  204 => 80,  199 => 77,  195 => 76,  191 => 74,  188 => 73,  183 => 70,  171 => 64,  165 => 63,  160 => 61,  154 => 60,  145 => 58,  140 => 56,  135 => 55,  132 => 54,  127 => 53,  125 => 52,  120 => 49,  116 => 48,  112 => 46,  109 => 45,  107 => 35,  101 => 32,  87 => 22,  81 => 20,  75 => 18,  69 => 16,  62 => 12,  57 => 10,  53 => 8,  51 => 5,  42 => 4,  11 => 1,);
     }
 
     public function getSourceContext()
@@ -373,6 +374,7 @@ img{
 <style>
 
 img{
+  
   width:300px;
 }
 
