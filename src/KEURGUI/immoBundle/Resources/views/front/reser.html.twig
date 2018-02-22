@@ -1,19 +1,23 @@
 {% extends "@KEURGUIimmo/layout.html.twig" %}
 
 
+
 {% block body %}
 {% block header %}
 {{parent()}}
 {% endblock %}
   
- <table border=1 class="table" >
-    <tr>
+ {# <table class="table table-bordered table-striped" id="table_id" class="display" data-page-length='5'>
+<thead>
+<tr>
 <th>id</th>
 <th>date de reservation</th>
 <th>client</th>
 <th>nom du bien</th>
 </tr>
-<tr>
+</thead>
+
+
 {% block style %}
 <style>
 img{
@@ -21,7 +25,7 @@ img{
 }
 </style>
 {% endblock %}
- 
+ <tbody>
 {% for use in x %}
        <tr>
   
@@ -34,11 +38,48 @@ img{
         <td scope="col" class="table-info">   <a href="{{path('contrat',{'idb':bien.id,'idc':client.id})}}">valider</a>
 </td>
 
-     </tr> 
-      {% else %}
-      aucun utilisateur de ce login trouver
+     
+    <td>  {% else %}
+      aucun utilisateur de ce login trouver </td>
+</tr> 
 {% endfor %}
-  </tr>
+  
+   </tbody>
 </table>
 
+{% endblock %} #}
+
+
+<table class="table table-bordered table-striped" id="table_id" class="display" data-page-length='5'>
+ <thead>
+<tr>
+<th>id</th>
+<th>date de reservation</th>
+<th>client</th>
+<th>nom du bien</th>
+
+</tr>
+</thead>
+
+<tbody>
+{% for use in x %}
+
+<tr>
+<td>{{use.id}}</td>
+<td>{{use.date}}</td>
+<td>{{use.client.nomComplet}}</td>
+
+
+<td><a href="{{path('contrat',{'idb':bien.id,'idc':client.id})}}">valider</a></td>
+
+
+
+{%else%}
+<td colspan="6">Aucun utilisateur</td>
+
+{%endfor%}
+</tr>
+ </tbody>
+</table>
 {% endblock %}
+
